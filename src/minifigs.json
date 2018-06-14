@@ -16,15 +16,15 @@
         "clicked": false
     },
     {   "id": 5,
-        "image": "./Images/bunnyGuy.jpg",
+        "image": "./Images/bunnyGuy.jpeg",
         "clicked": false
     },
     {   "id": 6,
-        "image": "./Images/caveGuy.jpg",
+        "image": "./Images/robot.jpg",
         "clicked": false
     },
     {   "id": 7,
-        "image": "./Images/cheif.jpg",
+        "image": "./Images/videoGameGuy.jpeg",
         "clicked": false
     },
     {   "id": 8,
@@ -32,7 +32,7 @@
         "clicked": false
     },
     {   "id": 9,
-        "image": "./Images/LJ.jpg",
+        "image": "./Images/LJ.png",
         "clicked": false
     },
     {   "id": 10,
@@ -63,4 +63,12 @@
         "image": "./Images/workoutGirl.jpeg",
         "clicked": false
     },
+    {   "id": 17,
+        "image": "./Images/rollerGirl.jpg",
+        "clicked": false
+    },
+    {   "id": 18,
+        "image": "./Images/hotDogGuy.jpg",
+        "clicked": false
+    }
 ]

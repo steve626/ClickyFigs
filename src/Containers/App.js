@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import FigCard from './components/FigCard';
-import Nav from './components/Nav';
-import Wrapper from './components/Wrapper';
-import Title from './components/Title';
+import FigCard from '../Components/FigCard';
+import Navbar from '../Components/Navbar';
+import Wrapper from '../Components/Wrapper';
+import Title from '../Components/Title';
 import Container from './Container';
 import Column from './Column';
-import minifigs from './minifigs.json';
+import minifigs from '../minifigs.json';
+import Row from './Row';
 import './App.css';
 
-function ShuffleFigs(array) {
+function shuffleFigs(array) {
   for (let i = array.length -1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i+1));
     [array[i], array[j]] = [array[j], array[i]];
@@ -66,11 +67,12 @@ handleShuffle = ()=> {
 render() {
   return (
     <Wrapper>
-      <Nav
+      <Navbar
       title='Clicky Figs Game'
+      rightWrong={this.state.rightWrong}
       score={this.state.currentScore}
       topScore={this.state.topScore}
-      rightWrong={this.state.rightWrong}
+      
       />
 
       <Title>
@@ -87,8 +89,8 @@ render() {
                 handleIncrement={this.handleIncrement}
                 handleReset={this.handleReset}
                 handleShuffle={this.handleShuffle}
-                id={minifig.id}
-                image={minifig.image}
+                id={minifigs.id}
+                image={minifigs.image}
               />
             </Column>
           ))}
