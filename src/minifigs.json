@@ -1,0 +1,66 @@
+[
+    {   "id": 1,
+        "image": "./Images/arcticGirl.jpeg",
+        "clicked": false
+    },
+    {   "id": 2,
+        "image": "./Images/baby.png",
+        "clicked": false
+    },
+    {   "id": 3,
+        "image": "./Images/banMan.png",
+        "clicked": false
+    },
+    {   "id": 4,
+        "image": "./Images/Benny.jpeg",
+        "clicked": false
+    },
+    {   "id": 5,
+        "image": "./Images/bunnyGuy.jpg",
+        "clicked": false
+    },
+    {   "id": 6,
+        "image": "./Images/caveGuy.jpg",
+        "clicked": false
+    },
+    {   "id": 7,
+        "image": "./Images/cheif.jpg",
+        "clicked": false
+    },
+    {   "id": 8,
+        "image": "./Images/cornGuy.jpeg",
+        "clicked": false
+    },
+    {   "id": 9,
+        "image": "./Images/LJ.jpg",
+        "clicked": false
+    },
+    {   "id": 10,
+        "image": "./Images/pigGuy.png",
+        "clicked": false
+    },
+    {   "id": 11,
+        "image": "./Images/pool.png",
+        "clicked": false
+    },
+    {   "id": 12,
+        "image": "./Images/SharkSuitGuyFull.png",
+        "clicked": false
+    },
+    {   "id": 13,
+        "image": "./Images/spaceGirl.jpg",
+        "clicked": false
+    },
+    {   "id": 14,
+        "image": "./Images/Trent.jpeg",
+        "clicked": false
+    },
+    {   "id": 15,
+        "image": "./Images/uniGirl.jpeg",
+        "clicked": false
+    },
+    {   "id": 16,
+        "image": "./Images/workoutGirl.jpeg",
+        "clicked": false
+    },
+]
