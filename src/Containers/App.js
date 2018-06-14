@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import FigCard from './components/FigCard';
 import Nav from './components/Nav';
 import Wrapper from './components/Wrapper';
@@ -80,7 +79,7 @@ render() {
 
       <Container>
         <Row>
-          {this.state.friends.map(minifigs => (
+          {this.state.minifigs.map(minifigs => (
             <Column size="md-2 sm-8">
               <FigCard
                 key={minifigs.id}
