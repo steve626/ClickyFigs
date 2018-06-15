@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import FigCard from '../Components/FigCard';
-import Navbar from '../Components/Navbar';
-import Wrapper from '../Components/Wrapper';
-import Title from '../Components/Title';
+import FigCard from './Components/FigCard';
+import Navbar from './Components/Navbar';
+import Wrapper from './Components/Wrapper';
+import Title from './Components/Title';
 import Container from './Container';
 import Column from './Column';
 import minifigs from '../minifigs.json';
