@@ -21,9 +21,9 @@ class App extends Component {
   state = {
     minifigs,
     currentScore: 0,
-    highScore: 0,
+    topScore: 0,
     rightWrong: '',
-    clicked:[]
+    clicked:[],
   };
 
   handleClick = id => {
@@ -38,13 +38,13 @@ class App extends Component {
   handleIncrement = () => {
     const newScore = this.state.currentScore + 1;
     this.setState({
-      currentScore:newScore,
-      rightWrong: ''
+      currentScore: newScore,
+      rightWrong: '',
     });
     if (newScore >= this.state.topScore) {
-      this.setState({ topScore :newScore});
-  } else if (newScore === 12) {
-    this.setState({rightWrong: "You Win!"});
+      this.setState({ topScore: newScore});
+  } else if (newScore === 18) {
+    this.setState({rightWrong: "YOU WIN!"});
   }
   this.handleShuffle();
 };
@@ -53,8 +53,8 @@ handleReset = () => {
   this.setState({
     currentScore: 0,
     topScore:this.state.topScore,
-    rightWrong: '',
-    clicked:[]
+    rightWrong: 'OOPS, TRY AGAIN!',
+    clicked:[],
   });
   this.handleShuffle();
 };
@@ -68,7 +68,7 @@ render() {
   return (
     <Wrapper>
       <Navbar
-      title='Clicky Figs Game'
+      title='CLICKY FIGS THE GAME'
       rightWrong={this.state.rightWrong}
       score={this.state.currentScore}
       topScore={this.state.topScore}
@@ -76,8 +76,8 @@ render() {
       />
 
       <Title>
-        Try to click on each Minifig once and only once. 
-        </Title>
+        Don't click on the same minifig twice, good luck!
+      </Title>
 
       <Container>
         <Row>

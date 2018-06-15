@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: Legothick;
+    src: url(Legothick.ttf);
+}
+
+nav {
+    background-color: #171614;
+    color:#ffffff;
+}
+
+#p {
+    font-family: Legothick;
+    font-size: 60px;
+    color: #f6ed36;
+    margin-top: 1px;
+    margin-left: 25px;
+    padding: 0;
+}
+
+ul li{    
+    padding-right: 10px;
+    font-size: 35px;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+#rw {
+    font-family: Legothick;
+    font-size: 40px;
+    color: #f6ed36;
+    margin-top: 1px;
+    margin-left: 25px;
+    padding: 0;
+}

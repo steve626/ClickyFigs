@@ -1,11 +1,11 @@
 .card {
-    border: 4px rgb(99, 99, 99) solid;
-    border-radius: 2px;
+    border: 4px #171614 solid;
+    border-radius: 6px;
     width: 150px;
     height: 150px;
     margin: 1rem;
     position: relative;
-    box-shadow: 4px 4px 10px rgb(56, 56, 56);
+    box-shadow: 0 0 0 4px #f6ed36;
     transition: all .2s ease-in-out;
   }
   
