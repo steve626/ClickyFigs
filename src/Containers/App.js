@@ -76,7 +76,7 @@ render() {
       />
 
       <Title>
-        Don't click on the same minifig twice, good luck!
+        Dont click on the same minifig twice, good luck!
       </Title>
 
       <Container>
